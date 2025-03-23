@@ -12,7 +12,7 @@ function ExampleUseRefFocus() {
               ref.current.style.backgroundColor ="white";
               ref.current.style.color ="black"
             }else{
-              ref.current.style.backgroundColor ="black";
+              ref.current.style.backgroundColor   ="black";
               ref.current.style.color ="white"
             }
            }}>Dark/light</button>
