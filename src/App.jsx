@@ -6,6 +6,7 @@ import Sample from './ontap/layout/Sample'
 import ExampleUseState from './ontap/hooks/ExampleUseState'
 import ExampleUseRef from './ontap/hooks/ExampleUseRef'
 import ExampleUseRefGetValueInput from './ontap/hooks/ExampleUseRefGetValueInput'
+import ExampleUseRefFocus from './ontap/hooks/ExampleUseRefFocus'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -15,7 +16,8 @@ function App() {
         {/* <Sample></Sample> */}
         {/* <ExampleUseState></ExampleUseState> */}
         {/* <ExampleUseRef></ExampleUseRef> */}
-        <ExampleUseRefGetValueInput></ExampleUseRefGetValueInput>
+        {/* <ExampleUseRefGetValueInput></ExampleUseRefGetValueInput> */}
+        <ExampleUseRefFocus></ExampleUseRefFocus>
     </>
   )
 }
