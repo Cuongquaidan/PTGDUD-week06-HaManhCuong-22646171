@@ -4,6 +4,7 @@ import viteLogo from '/vite.svg'
 import './App.css'
 import Sample from './ontap/layout/Sample'
 import ExampleUseState from './ontap/hooks/ExampleUseState'
+import ExampleUseRef from './ontap/hooks/ExampleUseRef'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -11,7 +12,8 @@ function App() {
   return (
     <>
         {/* <Sample></Sample> */}
-        <ExampleUseState></ExampleUseState>
+        {/* <ExampleUseState></ExampleUseState> */}
+        <ExampleUseRef></ExampleUseRef>
     </>
   )
 }
